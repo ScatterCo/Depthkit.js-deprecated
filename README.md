@@ -11,7 +11,7 @@ Alternatively, if you use Node.js you can install the package with npm using ```
 
 ### Creating a character
 ```JavaScript
-var depthkit = new DepthKit();
+var depthkit = new Depthkit();
 depthkit.load(
 	"myClip.txt",
 	"myClip.mp4",
