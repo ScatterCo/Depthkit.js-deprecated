@@ -18,7 +18,7 @@ Include ```depthkit.js``` or ```depthkit.min.js``` after loading ```three.js``` 
 
 ### Creating a character
 ```JavaScript
-var depthkit = new DepthKit();
+var depthkit = new Depthkit();
 depthkit.load(
 	"myClip.txt",
 	"myClip.mp4",
