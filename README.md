@@ -5,9 +5,16 @@ A plugin for visualising [Depthkit](http://www.depthkit.tv/) volumteric captures
 
 ![Depthkit.js screencapture](https://raw.githubusercontent.com/ScatterCo/DepthKit.js/master/assets/gh/banner.gif)
 
-Include ```depthkit.js``` or ```depthkit.min.js``` after loading ```three.js``` in your project.
+## Getting started:
+1. Fork/Clone/Download
+1. Open Git Bash in the root directory.
+1. Run ```npm install``` to install all dependcies.
+1. Run ```npm run start``` to start an http server.
+1. To confirm that the http server is running, open a browser, and go to ```localhost:8080```. If the server is running, you should see a list view of the files and folders in your directory.
+1. To see an example, navigate the browser to ```http://localhost:8080/examples/simple.html```.
+1. To load your own Depthkit clip, move your Depthkit combined-per-pixel video and metadata into the /assets bin. In ```simple.html```, find the ```depthkit.load()``` call on line 98, and replace the TXT and MP4 references with the location and filename of your own asset. Save the page and refresh.
 
-Alternatively, if you use Node.js you can install the package with npm using ```npm install depthkit``` [npm package](https://www.npmjs.com/package/depthkit)
+Include ```depthkit.js``` or ```depthkit.min.js``` after loading ```three.js``` in your project.
 
 ### Creating a character
 ```JavaScript
