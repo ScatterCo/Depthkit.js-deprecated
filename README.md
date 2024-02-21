@@ -1,5 +1,4 @@
-# Depthkit.js
-[![Build Status](https://travis-ci.org/juniorxsound/DepthKit.js.svg?branch=master)](https://travis-ci.org/juniorxsound/DepthKit.js)                [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# [DEPRECATED] ~~Depthkit.js~~ - Please use [the new Depthkit.js](https://github.com/ScatterCo/Depthkit.js) instead
 
 A plugin for visualising [Depthkit](http://www.depthkit.tv/) volumteric captures using [Three.js](https://github.com/mrdoob/three.js) in WebGL. The plugin requires Three.js and a Depthkit *combined-per-pixel* video export.
 
